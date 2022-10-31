@@ -1,16 +1,16 @@
 ./base/jitsi/jitsi-secret.yaml
-./base/jitsi/web-configmap.yaml   --maybe
 ./base/ops/cert-manager/cluster-issuer.yaml
+./overlays/development-monitoring/ops/bbb-basic-auth-secret.yaml
+
+
+
+./base/jitsi/web-configmap.yaml   --maybe
 ./base/ops/logging/fluentd-daemonset-elasticsearch-rbac.yaml
 ./base/ops/logging/secret-fluentd-user.yaml
 ./base/ops/logging/fluentd-daemonset-patch.yaml
 ./base/ops/monitoring/bbb-service-monitor.yaml
 
-./overlays/development-monitoring/ops/bbb-basic-auth-secret.yaml
 
 ./secrets.sh
-./.gitignore
-check xmpp
 
 
-work on dev not on prod check server pricing 
